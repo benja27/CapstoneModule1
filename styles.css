@@ -358,8 +358,8 @@ a {
   background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: top left;
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 30%;
 }
 
 @media (min-width: 768px) {
