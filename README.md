@@ -72,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://benja27.github.io/Portfolio-setup2/)
+- [Live Demo Link](https://benja27.github.io/CapstoneModule1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
