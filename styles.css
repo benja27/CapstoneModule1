@@ -35,8 +35,6 @@ html {
     font-size: 20px;
   }
 }
-
-
 /* ----------------------general fonts lato and gothic */
 .lato700 {
   font-weight: 700;
@@ -133,8 +131,6 @@ html {
 .bff4f38 {
   background-color: #ff4f38;
 }
-
-
 
 /* ------------------------------------------------- RESETEO */
 
@@ -255,9 +251,6 @@ a {
   }
 }
 
-
-
-
 /* --------------------------------------------- HEADER */
 
 .header {
@@ -333,7 +326,6 @@ a {
 .offcanvas-menu li:hover {
   opacity: 0.75;
 }
-
 
 /* -------------------------------------------- HERO */
 .hero {
