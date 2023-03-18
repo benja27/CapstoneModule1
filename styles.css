@@ -1,0 +1,484 @@
+/* --------------------------------- ESTILOS GENERALES ROOT */
+:root {
+  --gothic: 'Gothic A1';
+  --Lato: 'Lato';
+}
+
+html {
+  font-size: 11px;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+/* update REM to create font size responsive */
+
+@media (min-width: 576px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+/* ----------------------general fonts lato and gothic */
+.lato700 {
+  font-weight: 700;
+}
+
+.lato900 {
+  font-weight: 900;
+}
+
+.gothic700 {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 700;
+}
+
+.gothic900 {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 900;
+}
+
+/* general sizes ------------------- */
+
+.f9 {
+  font-size: 0.9rem;
+}
+
+.f10 {
+  font-size: 1rem;
+}
+
+.f11 {
+  font-size: 1.1rem;
+}
+
+.f12 {
+  font-size: 1.2rem;
+}
+
+.f15 {
+  font-size: 1.5rem;
+}
+
+.f16 {
+  font-size: 1.6rem;
+}
+
+.f18 {
+  font-size: 1.8rem;
+}
+
+.f20 {
+  font-size: 2rem;
+}
+
+.f30 {
+  font-size: 3rem;
+}
+
+/* general colors for fonts */
+
+.c515151 {
+  color: #515151;
+}
+
+.c3b3E45 {
+  color: #3b3e45;
+}
+
+.cff5438 {
+  color: #ff5438;
+}
+
+.cf78c89 {
+  color: #f78c89;
+}
+
+.c595959 {
+  color: #595959;
+}
+
+.c868686 {
+  color: #868686;
+}
+
+/* general color backgrounds */
+
+.b282b32 {
+  background-color: #282b32;
+}
+
+.b3b3e45 {
+  background-color: #3b3e45;
+}
+
+.bff4f38 {
+  background-color: #ff4f38;
+}
+
+
+
+/* ------------------------------------------------- RESETEO */
+
+* {
+  /* margin: 0 !important; */
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 !important;
+}
+
+/* general items */
+
+body {
+  margin: 0 auto;
+  font-family: var(--Lato), sans-serif;
+  max-width: 1440px;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 1px;
+}
+
+.check,
+.check * {
+  border: 2px solid black;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* animations */
+
+@keyframes text-ltr {
+  1% {
+    transform: translate(-100px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(30px);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes text-rtl {
+  0% {
+    transform: translate(200px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(-30px);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes text-btu {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(30px);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes img-rotate-hover {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(225deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* --------------------------------------------- HEADER */
+
+.header {
+  border: 0.1px solid transparent;
+}
+
+.hero-cont {
+  max-width: 800px;
+}
+
+.nav-item a {
+  font-size: 16px;
+  color: #868686;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-nav li:nth-last-child(1) {
+  border: 5px solid red;
+}
+
+.navbar-brand {
+  margin-right: 35vw;
+  width: 150px;
+}
+
+.navbar-toggler-icon {
+  width: 31px;
+  height: 31px;
+  background-image: url('https://summit.cckorea.org/images/base/mobile_menu.png') !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+}
+
+/* ------------------- OFF CANVAS */
+
+.offcanvas-body {
+  background-image: url(https://summit.cckorea.org/images/base/main_big.png) !important;
+}
+
+.offcanvas-menu {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.offcanvas-menu li a button {
+  width: 150px;
+  padding: 8px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.offcanvas-menu li a {
+  color: black;
+  font-weight: 700;
+}
+
+.offcanvas-menu li:hover {
+  opacity: 0.75;
+}
+
+
+/* -------------------------------------------- HERO */
+.hero {
+  /* background-image: url('https://summit.cckorea.org/images/base/main_big.png');
+  background-image: url('https://www.connectionsbyfinsa.com/wp-content/uploads/2021/06/connections-by-finsa-hackaton-finsa.jpg'); */
+  background-image: url('./assets/hackaton-logo.svg');
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+.hero h1 {
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: url('https://velzckc0d3.github.io/style/bg/text-bg.webp');
+  background-size: cover;
+}
+
+/* ------------------------------------------ MAIN CARDS */
+
+.cards > div > p {
+  font-size: 12px !important;
+}
+
+.img-spk-cnt {
+  background-image: url('./assets/chess.jpg');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 200px;
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .img-spk-cnt {
+    width: 30%;
+    height: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-spk-cnt {
+    width: 30%;
+    height: 140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-spk-cnt {
+    width: 35%;
+    height: 200px;
+  }
+}
+
+.img-spk-cnt img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 85%;
+  height: 85%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: left center;
+}
+
+.see-whole-program a {
+  text-decoration: underline;
+  text-decoration-color: white;
+
+  /* border-bottom: 2px solid white;
+  padding-bottom: 5px; */
+}
+
+.underlined {
+  height: 4px;
+  width: 50px;
+  background-color: #a04038;
+  margin: 0 auto;
+}
+
+.underlined-2 {
+  height: 2px;
+  width: 17px;
+  background-color: #d9d9d9;
+}
+
+.btn-more {
+  border: 1px solid #dcdcdc;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+}
+
+/* ------------------------------------ FEATURED SPEAKERS */
+
+.content {
+  font-size: 11px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+@media (min-width: 576px) {
+  .content {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .content {
+    font-size: 14px;
+  }
+}
+
+.content .col-8 h3 {
+  font-size: 1.6em;
+}
+
+.content .col-8 p:nth-child(2) {
+  font-size: 1em;
+}
+
+.content .col-8 p:nth-child(4) {
+  font-size: 0.9em;
+}
+
+/* ---------------------------------------------------- PARTNER LOGO SECTION */
+
+.partner {
+  background: #414246;
+}
+
+.partner h3 {
+  color: #8f8f91;
+  font-size: 30px;
+  text-align: center;
+  width: min-content;
+  margin: 0 auto;
+}
+
+.partner .underlined {
+  background-color: #a04038;
+}
+
+/* ------------------------------------------ FOOTER SECTION */

@@ -1,0 +1,31 @@
+/*------------------------------ header */
+.header-subcontent p{
+  line-height: 25px;
+  color: #7A7A7A;
+}
+.header-subcontent p{
+  line-height: 25px;
+}
+.header-subcontent a{
+  color: #7A7A7A;  
+  text-decoration: underline;
+}
+
+
+
+/*------------------------------- about info */
+
+.about-main{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-info h2{
+  font-size: 20px;
+  color: #2C2C2C;
+}
+.about-info p{
+  font-size: 16px;
+  color: #838383;
+  font-weight: 700;
+}
