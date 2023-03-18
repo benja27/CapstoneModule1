@@ -1,30 +1,7 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+<div align="center">  
   
   <br/>
   
@@ -59,7 +36,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Mariano's Porfolio] <a name="about-project"></a>
 
-**[Mariano's Porfolio]** is a practice of responsive Design and JS DOM manipulation
+**[Mariano's Porfolio]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,7 +48,7 @@ After you're finished please remove all the comments and instructions!
     <li><a href="https://reactjs.org/">Html</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">Css</a></li>
+    <li><a href="https://reactjs.org/">JS</a></li>
   </ul>
   <ul>
     <li><a href="https://reactjs.org/">Flex-box</a></li>
@@ -111,8 +88,7 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/cloni
 
 In order to run this project you need:
 
-Internet and a computer
-
+Clone the repo and open the index.html file located in the root directory
 <!--
 Example command:
 
@@ -140,7 +116,7 @@ Example commands:
 
 Install this project with:
 
-N/A
+it does not requiere instalattion.
 
 <!--
 Example command:
@@ -155,7 +131,9 @@ Example command:
 
 To run the project, execute the following command:
 
-just double click on the html file
+Download or clone the repo and double click on the index.html file 
+If you want to modify something you can open the folder with your favorite text editor
+I recomend Visual studio code
 <!--
 Example command:
 
@@ -203,11 +181,6 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/@rksne123)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
 
-👤 **Maedea9**
-
-- GitHub: [@githubhandle](https://github.com/maedea)
-- Twitter: [@twitterhandle](https://twitter.com/@rksne123)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,7 +216,7 @@ If you like this project like and subscribe
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank myself
+I would like to thank to Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
