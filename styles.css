@@ -298,6 +298,11 @@ a {
   }
 }
 
+.see-whole-program a {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
 /* ------------------- OFF CANVAS */
 
 .offcanvas-body {
@@ -393,15 +398,7 @@ a {
   height: 85%;
   aspect-ratio: 1/1;
   object-fit: cover;
-  object-position: left center;
-}
-
-.see-whole-program a {
-  text-decoration: underline;
-  text-decoration-color: white;
-
-  /* border-bottom: 2px solid white;
-  padding-bottom: 5px; */
+  object-position: center;
 }
 
 .underlined {
@@ -451,6 +448,14 @@ a {
   }
 }
 
+.partner h3 {
+  color: #8f8f91;
+  font-size: 30px;
+  text-align: center;
+  width: min-content;
+  margin: 0 auto;
+}
+
 .content .col-8 h3 {
   font-size: 1.6em;
 }
@@ -467,14 +472,6 @@ a {
 
 .partner {
   background: #414246;
-}
-
-.partner h3 {
-  color: #8f8f91;
-  font-size: 30px;
-  text-align: center;
-  width: min-content;
-  margin: 0 auto;
 }
 
 .partner .underlined {

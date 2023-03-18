@@ -11,8 +11,6 @@ document.documentElement.addEventListener('click', (e) => {
 
     const moreStatus = e.srcElement.getAttribute('data-open');
 
-    console.log(arrow);
-
     if (moreStatus === 'close') {
       more.innerHTML = 'Less';
       e.srcElement.setAttribute('data-open', 'open');
@@ -25,7 +23,7 @@ document.documentElement.addEventListener('click', (e) => {
   }
 });
 
-window.addEventListener('resize', (e) => {
+window.addEventListener('resize', () => {
   const currentWidth = window.innerWidth;
   const hiddenSpeakers = document.querySelector('#panelsStayOpen-collapseOne');
   const more = document.querySelector('#see-more');
