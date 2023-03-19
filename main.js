@@ -4,12 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
   createCardProject();
 });
 
-
 document.documentElement.addEventListener('click', (e) => {
-  if ( (e.target.matches('.btn-see-more')) || (e.target.matches('.btn-see-more *'))    ) {
-    const more = document.querySelector('#see-more');    
+  if ((e.target.matches('.btn-see-more')) || (e.target.matches('.btn-see-more *'))) {
+    const more = document.querySelector('#see-more');
     const arrow = document.querySelector('#see-more img');
-    const moreStatus = more.dataset.open
+    const moreStatus = more.dataset.open;
 
     if (moreStatus === 'close') {
       more.children[0].textContent = 'Less';

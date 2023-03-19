@@ -254,17 +254,15 @@ a {
 
 /* --------------------------------------------- HEADER */
 
-.subheader{
-  background-color: #3E3E3E;
+.subheader {
+  background-color: #3e3e3e;
   color: white;
   align-items: center;
   gap: 20px;
   justify-content: flex-end;
-  
 }
-.sub-header-img-cont{
-}
-.subheader h3{
+
+.subheader h3 {
   margin: 0;
   font-size: 12px;
   padding: 10px 0;
