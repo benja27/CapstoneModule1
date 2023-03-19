@@ -72,7 +72,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+
 - [Live Demo Link](https://benja27.github.io/CapstoneModule1/)
+- [Loom walkthrought Video](https://www.loom.com/share/efa132271014453bbb17fb462cc95999)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,7 +218,10 @@ If you like this project like and subscribe
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to Microverse
+I would like to thank to Microverse and Cindy Shin the author of the original design.
+you can visit her webiste here:
+
+https://www.behance.net/adagio07
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -4,19 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
   createCardProject();
 });
 
-document.documentElement.addEventListener('click', (e) => {
-  if ((e.target.matches('#see-more'))) {
-    const more = document.querySelector('#see-more h3');
-    const arrow = document.querySelector('#see-more img');
 
-    const moreStatus = e.srcElement.getAttribute('data-open');
+document.documentElement.addEventListener('click', (e) => {
+  if ( (e.target.matches('.btn-see-more')) || (e.target.matches('.btn-see-more *'))    ) {
+    const more = document.querySelector('#see-more');    
+    const arrow = document.querySelector('#see-more img');
+    const moreStatus = more.dataset.open
 
     if (moreStatus === 'close') {
-      more.innerHTML = 'Less';
+      more.children[0].textContent = 'Less';
       e.srcElement.setAttribute('data-open', 'open');
       arrow.style.transform = 'rotate(180deg)';
     } else {
-      more.innerHTML = 'More';
+      more.children[0].textContent = 'More';
       e.srcElement.setAttribute('data-open', 'close');
       arrow.style.transform = 'rotate(0deg)';
     }

@@ -254,6 +254,22 @@ a {
 
 /* --------------------------------------------- HEADER */
 
+.subheader{
+  background-color: #3E3E3E;
+  color: white;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+  
+}
+.sub-header-img-cont{
+}
+.subheader h3{
+  margin: 0;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
 .header {
   border: 0.1px solid transparent;
 }
@@ -344,6 +360,7 @@ a {
   color: transparent;
   -webkit-text-fill-color: transparent;
   background-image: url('https://velzckc0d3.github.io/style/bg/text-bg.webp');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4KOPPIp_5vmP6kkNFcixM7Mp-IEL6d-6cQ&usqp=CAU');
   background-size: cover;
 }
 
