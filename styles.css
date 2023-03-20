@@ -36,7 +36,6 @@ html {
   }
 }
 
-
 /* ----------------------general fonts lato and gothic */
 .lato700 {
   font-weight: 700;
@@ -133,8 +132,6 @@ html {
 .bff4f38 {
   background-color: #ff4f38;
 }
-
-
 
 /* ------------------------------------------------- RESETEO */
 
@@ -255,10 +252,21 @@ a {
   }
 }
 
-
-
-
 /* --------------------------------------------- HEADER */
+
+.subheader {
+  background-color: #3e3e3e;
+  color: white;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.subheader h3 {
+  margin: 0;
+  font-size: 12px;
+  padding: 10px 0;
+}
 
 .header {
   border: 0.1px solid transparent;
@@ -269,7 +277,7 @@ a {
 }
 
 .nav-item a {
-  font-size: 16px;
+  font-size: 16.1px;
   color: #868686;
 }
 
@@ -296,6 +304,11 @@ a {
   .navbar-brand {
     margin-right: 0;
   }
+}
+
+.see-whole-program a {
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 /* ------------------- OFF CANVAS */
@@ -329,7 +342,6 @@ a {
   opacity: 0.75;
 }
 
-
 /* -------------------------------------------- HERO */
 .hero {
   /* background-image: url('https://summit.cckorea.org/images/base/main_big.png');
@@ -346,6 +358,7 @@ a {
   color: transparent;
   -webkit-text-fill-color: transparent;
   background-image: url('https://velzckc0d3.github.io/style/bg/text-bg.webp');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4KOPPIp_5vmP6kkNFcixM7Mp-IEL6d-6cQ&usqp=CAU');
   background-size: cover;
 }
 
@@ -360,8 +373,8 @@ a {
   background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: top left;
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 30%;
 }
 
 @media (min-width: 768px) {
@@ -393,15 +406,7 @@ a {
   height: 85%;
   aspect-ratio: 1/1;
   object-fit: cover;
-  object-position: left center;
-}
-
-.see-whole-program a {
-  text-decoration: underline;
-  text-decoration-color: white;
-
-  /* border-bottom: 2px solid white;
-  padding-bottom: 5px; */
+  object-position: center;
 }
 
 .underlined {
@@ -451,6 +456,14 @@ a {
   }
 }
 
+.partner h3 {
+  color: #8f8f91;
+  font-size: 30px;
+  text-align: center;
+  width: min-content;
+  margin: 0 auto;
+}
+
 .content .col-8 h3 {
   font-size: 1.6em;
 }
@@ -463,18 +476,14 @@ a {
   font-size: 0.9em;
 }
 
+.arrow-down {
+  width: 15px;
+}
+
 /* ---------------------------------------------------- PARTNER LOGO SECTION */
 
 .partner {
   background: #414246;
-}
-
-.partner h3 {
-  color: #8f8f91;
-  font-size: 30px;
-  text-align: center;
-  width: min-content;
-  margin: 0 auto;
 }
 
 .partner .underlined {

@@ -1,31 +1,35 @@
-/*------------------------------ header */
-.header-subcontent p{
+/* ------------------------------ header */
+.header-subcontent p {
   line-height: 25px;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
-.header-subcontent p{
-  line-height: 25px;
-}
-.header-subcontent a{
-  color: #7A7A7A;  
+
+.header-subcontent a {
+  color: #7a7a7a;
   text-decoration: underline;
 }
 
+/* ------------------------------- about info */
 
-
-/*------------------------------- about info */
-
-.about-main{
+.about-main {
   max-width: 900px;
   margin: 0 auto;
 }
 
-.about-info h2{
+.about-info h2 {
   font-size: 20px;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
-.about-info p{
+
+.about-info p {
   font-size: 16px;
   color: #838383;
   font-weight: 700;
+}
+
+/* footer */
+
+footer {
+  background-color: #2e2e2e;
+  color: white;
 }

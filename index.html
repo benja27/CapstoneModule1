@@ -26,8 +26,21 @@
 </head>
 <body class="container-fluid px-0 ">
   <!-------------------------------------------------------- HEADER -->
-  
-  <header class="header">
+  <section class="d-none  d-md-flex subheader pe-5" >
+    <div class="sub-header-img-cont" >
+      <img src="./assets/logo/facebook.svg" alt="">
+    </div>
+
+    <div>
+      <img src="./assets/logo/twitter.svg" alt="">
+    </div>
+
+    <h3>English</h3>  
+    <h3>My page</h3>  
+    <h3>Logout</h3>  
+  </section>
+
+  <header class="header pe-4">
 
     <div class="">
 
@@ -35,7 +48,8 @@
         <div class="container-fluid flex-row-reverse flex-lg-row">
 
           <a class="navbar-brand" href="./index.html">
-            <img src="http://innovacion.sec.gob.mx/wp-content/uploads/2022/04/hackaton-2022-logotipo-768x212.png" alt="">
+            <img src="./assets/logo/hackaton.png" alt="">
+            
           </a>
 
           <button class="navbar-toggler " type="button" data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'>            
@@ -46,7 +60,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav w-100 d-flex justify-content-end gap-4">
               <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="./views/about.html">About</a>
+                <a class="nav-link active" aria-current="page" href="views/about.html">About</a>
               </li>
               <li class="nav-item mx">
                 <a class="nav-link f20" href="#">Program</a>
@@ -61,7 +75,7 @@
                 <a class="nav-link" href="#">News</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#">CC Campaign</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               
             </ul>
@@ -77,33 +91,33 @@
         <div class='offcanvas-body'>
           <ul class="offcanvas-menu  " >
             <li class="" >
-              <a class="btn btn-secundary" href="">
-                  <button class="btn btn-primary">About</button>     
+              <a class="" type="button" href="./views/about.html">
+                  <button class="btn btn-primary" type="button">About</button>     
               </a>                         
             </li>            
             <li class="" >
-              <a class="btn btn-secundary" href="">
-                  <button class="btn btn-primary">Program</button>     
+              <a class="" type="button" href="">
+                  <button class="btn btn-primary" type="button">Program</button>     
               </a>                         
             </li>            
             <li class="" >
-              <a class="btn btn-secundary" href="">
-                  <button class="btn btn-primary">Join</button>     
+              <a class="" type="button" href="">
+                  <button class="btn btn-primary" type="button">Join</button>     
               </a>                         
             </li>            
             <li class="" >
-              <a class="btn btn-secundary" href="">
-                  <button class="btn btn-primary">Sponsor</button>     
+              <a class="" type="button" href="">
+                  <button class="btn btn-primary" type="button">Sponsor</button>     
               </a>                         
             </li>            
             <li class="" >
-              <a class="btn btn-secundary" href="">
-                  <button class="btn btn-primary">News</button>     
+              <a class="" type="button" href="">
+                  <button class="btn btn-primary" type="button">News</button>     
               </a>                         
             </li>            
             <li class="" >
-              <a class="btn btn-secundary" href="">
-                  <button class="btn btn-primary">CC Campaign</button>     
+              <a class="" type="button" href="">
+                  <button class="btn btn-primary" type="button">CC Campaign</button>     
               </a>                         
             </li>            
             
@@ -120,10 +134,10 @@
   
   <!-------------------------------------------------------- HERO -->
   
-  <article class="hero ps-lg-5 pt-5">
+  <article class="hero ps-lg-5 pt-5 ">
     <section class="hero-cont row mx-auto  pt-5 mt-5 ms-lg-5 ps-lg-5">
       <div class=" ms-lg-5 ps-lg-5 pt-3" >
-        <p class="f18 pt-2" >Expand Your Skills</p>
+        <p class="f18 c868686 text-left pt-2" >Expand Your Skills</p>
         <h1 class="f30  gothic900 cff5438 mb-5" >NERSC N-Ways to GPU Open hackathon</h1>
         <p class="c515151 mb-5 f12 border border-white border-5 fw-bold py-3 px-3 col-lg-11" >Our events help you to hone your skills by connecting you with the latest technologies, robust tool sets, and collective expertise.</p>
         <h2 class="gothic700 f20 c595959">2023.10.15(THU) ~ 16(FRI)</h2>
@@ -171,7 +185,7 @@
       
     </article>
 
-    <button class="bff4f38 text-white mx-auto d-block mt-5 col-10 py-4 d-md-none">
+    <button class="bff4f38 text-white mx-auto d-block mt-5 col-10 py-4 d-md-none" type="button">
       <p class="lato900 f20">
         Join Hackaton 2023
       </p> 
@@ -195,167 +209,12 @@
 
     <!-- speakers container -->
     <article class="col-11 mx-auto mt-5 row gy-4 speakers-container">
-
-      
-      <!-- <div class="content gap-3 d-flex col-12 col-md-6">
-
-        <div class="col-4 img-spk-cnt position-relative" >
-          <img class="col-6" src="./assets/speakers/speaker1.jpg" alt="">
-        </div>
-        <div class="col-8">
-          <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-          <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-          <div class="underlined-2 mt-1"></div>
-          <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-        </div>
-      </div>
-      <div class="content gap-3 d-flex col-12 col-md-6">
-
-        <div class="col-4 img-spk-cnt position-relative" >
-          <img class="col-6" src="./assets/speakers/speaker1.jpg" alt="">
-        </div>
-        <div class="col-8">
-          <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-          <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-          <div class="underlined-2 mt-1"></div>
-          <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-        </div>
-      </div> -->
-
-      
       <div id="panelsStayOpen-collapseOne" class="accordion-collapse d-lg-flex m-0 p-0 collapse mx-auto row gy-4 speakers-container" aria-labelledby="panelsStayOpen-headingOne">
-        
-        <!-- <div class="content gap-3 d-flex col-md-6">
-
-          <div class="col-4 position-relative" >
-            <img src="https://summit.cckorea.org/images/base/speaker_02.png" alt="">
-          </div>
-          <div class="col-8">
-            <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-            <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-            <div class="underlined-2 mt-1"></div>
-            <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-          </div>
-        </div>  -->
-
-        <!-- <div class="accordion-body p-0 ">
-
-          <article class="col-12 mx-auto mt-1 mx-5 row gy-3">
-            
-            <div class="content chec col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-              <div class="col-4 ms-md-2 position-relative" >
-                <img class="col-12 ps-" src="https://summit.cckorea.org/images/base/speaker_03.png" alt="">
-              </div>
-              <div class="col-8 col-md-8 chec pe-4 pe-md-0 pe-md-1">
-                <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <div class="underlined-2 mt-1"></div>
-                <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-              </div>
-            </div>
-            
-            <div class="content col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-              <div class="col-4 position-relative" >
-                <img src="https://summit.cckorea.org/images/base/speaker_04.png" alt="">
-              </div>
-              <div class="col-8 pe-4 pe-md-0">
-                <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <div class="underlined-2 mt-1"></div>
-                <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-              </div>
-            </div>
-            <div class="content chec col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-              <div class="col-4 ms-md-2 position-relative" >
-                <img class="col-12 ps-" src="https://summit.cckorea.org/images/base/speaker_05.png" alt="">
-              </div>
-              <div class="col-8 col-md-8 chec pe-4 pe-md-0 pe-md-1">
-                <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <div class="underlined-2 mt-1"></div>
-                <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-              </div>
-            </div>
-            
-            <div class="content col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-              <div class="col-4 position-relative" >
-                <img src="https://summit.cckorea.org/images/base/speaker_06.png" alt="">
-              </div>
-              <div class="col-8 pe-4 pe-md-0">
-                <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <div class="underlined-2 mt-1"></div>
-                <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-              </div>
-            </div>
-          </article>
-        </div> -->
       </div>
-
     </article>
 
     <!-- button see more -->
-
-    <!-- <div class="accordion px-4" id="accordionPanelsStayOpenExample"> -->
-      
-      <div class="accordion-item ">
-        
-        <!-- <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse d-lg-block show" aria-labelledby="panelsStayOpen-headingOne">
-          
-          <div class="accordion-body p-0 ">
-
-            <article class="col-12 mx-auto mt-1 mx-5 row gy-3">
-              
-              <div class="content chec col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-                <div class="col-4 ms-md-2 position-relative" >
-                  <img class="col-12 ps-" src="https://summit.cckorea.org/images/base/speaker_03.png" alt="">
-                </div>
-                <div class="col-8 col-md-8 chec pe-4 pe-md-0 pe-md-1">
-                  <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                  <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                  <div class="underlined-2 mt-1"></div>
-                  <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-                </div>
-              </div>
-              
-              <div class="content col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-                <div class="col-4 position-relative" >
-                  <img src="https://summit.cckorea.org/images/base/speaker_04.png" alt="">
-                </div>
-                <div class="col-8 pe-4 pe-md-0">
-                  <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                  <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                  <div class="underlined-2 mt-1"></div>
-                  <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-                </div>
-              </div>
-              <div class="content chec col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-                <div class="col-4 ms-md-2 position-relative" >
-                  <img class="col-12 ps-" src="https://summit.cckorea.org/images/base/speaker_05.png" alt="">
-                </div>
-                <div class="col-8 col-md-8 chec pe-4 pe-md-0 pe-md-1">
-                  <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                  <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                  <div class="underlined-2 mt-1"></div>
-                  <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-                </div>
-              </div>
-              
-              <div class="content col-md-6 gap-3 mx-2 mx-md-0 d-flex ">  
-                <div class="col-4 position-relative" >
-                  <img src="https://summit.cckorea.org/images/base/speaker_06.png" alt="">
-                </div>
-                <div class="col-8 pe-4 pe-md-0">
-                  <h3 class="f16 lato700 pt-2" >Yochai Benkler</h3>
-                  <p class="lato700 f11 cf78c89 pt-1">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                  <div class="underlined-2 mt-1"></div>
-                  <p class="lato700 f10 pt-2">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div> -->
-        
+      <div class="accordion-item btn-see-more">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
           <button class="bg-white d-flex align-items-center mx-auto justify-content-center gap-2 col-11 py-3 mt-3 btn-more d-lg-none" type="button" 
           data-bs-toggle="collapse"    
@@ -363,13 +222,10 @@
           data-bs-target=".panelsStayOpen-collapsetwo" 
           aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" id="see-more" data-open="close" ">
             <h3 class="m-0 lato700 f15">MORE</h3>
-              <img src="https://summit.cckorea.org/images/base/arrow_down.png" alt="" style="width: 15px;" >
+              <img class="arrow-down" src="https://summit.cckorea.org/images/base/arrow_down.png" alt="">
           </button>
         </h2>        
-      </div> 
-
-    <!-- </div> -->
-
+      </div>
   </section>
 
   <!------------------------------------------------------  PARTNER LOGO SECTION -->
@@ -399,7 +255,7 @@
 
   <!----------------------------------------------------------- FOOTER SECTION  -->
 
-  <footer class="py-5 d-none d-lg-block" >
+  <footer class="py-5 d-none d-lg-block " >
     <article class="row d-flex gx-5 justify-content-center align-items-center mx-0" >
       <div class="col-3">
         <img src="./assets/cck-logo1 1.svg" alt="">
