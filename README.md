@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mariano's Porfolio] <a name="about-project"></a>
+# 📖 [Capstone Module 1] <a name="about-project"></a>
 
-**[Mariano's Porfolio]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
+**[Capstone Module 1]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,7 +74,6 @@
 
 
 - [Live Demo Link](https://benja27.github.io/CapstoneModule1/)
-- [Loom walkthrought Video](https://www.loom.com/share/efa132271014453bbb17fb462cc95999)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
